@@ -11,6 +11,9 @@ requests = "^2.31.0"
 
 [tool.poetry.scripts]
 get-papers-list = "get_papers_list.cli:main"
+[tool.poetry.dev-dependencies]
+pytest = "^7.0"
+
 
 [build-system]
 requires = ["poetry-core"]
